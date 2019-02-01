@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 2019_01_30_141501) do
   enable_extension "plpgsql"
 
   create_table "projects", force: :cascade do |t|
-    t.bigint "user_id"
     t.string "title"
     t.string "thumbnail"
     t.string "demo_one"
@@ -26,15 +25,6 @@ ActiveRecord::Schema.define(version: 2019_01_30_141501) do
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["user_id"], name: "index_projects_on_user_id"
   end
 
-  create_table "users", force: :cascade do |t|
-    t.string "username"
-    t.string "password_digest"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  add_foreign_key "projects", "users"
 end
