@@ -14,7 +14,7 @@ github_one: "https://github.com/mattdizon/foodie_frontend",
 gihub_two: "https://github.com/mattdizon/foodie_ios",
 description: "Foodie is both a web app and a mobile app. Utilizing React and Rails, Users can either upload recipes or search for recipes based on several different factors. The mobile companion was written in Swift. The mobile version also includes a feature that allows users to identify what a food item is. This object classification utilizes Apple's built in machine learning framework CoreML, no training of the AI was needed because I was able to utilize a built in model called Insomnia that could be found through apple's developer website."
 })
-{
+
 a = Project.create({ title: "OSU-JS",
 thumbnail: "https://i.imgur.com/d89eu2y.png",
 demo_one: "https://drive.google.com/file/d/1xiC8T6SiAX33r5peXimki1M4i8GSJ_d5/view",
