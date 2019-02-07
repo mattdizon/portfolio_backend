@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2019_01_30_141501) do
     t.string "github_one"
     t.string "gihub_two"
     t.text "description"
+    t.text "short_description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

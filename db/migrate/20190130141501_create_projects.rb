@@ -8,6 +8,7 @@ class CreateProjects < ActiveRecord::Migration[5.2]
       t.string :github_one
       t.string :gihub_two
       t.text :description
+      t.text :short_description
 
       t.timestamps
     end
