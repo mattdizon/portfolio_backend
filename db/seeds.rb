@@ -16,6 +16,12 @@ description: "Foodie is both a web app and a mobile app. Utilizing React and Rai
 short_description: "Web and iOS Recipe Query App with Rails Backend and JWT Auth. "
 })
 
+b.Framework.create({project_id:1, name:"React"})
+b.Framework.create({project_id:1, name:"Redux"})
+b.Framework.create({project_id:1, name:"Ruby on Rails"})
+b.Framework.create({project_id:1, name:"Swift"})
+b.Framework.create({project_id:1, name:"CoreML"})
+
 a = Project.create({ title: "OSU-JS",
 thumbnail: "https://i.imgur.com/d89eu2y.png",
 demo_one: "https://www.youtube.com/embed/nFythE8-lfU",
@@ -24,6 +30,12 @@ description: "Using vanilla javascript and libraries such as AnimeJS and CreateJ
 short_description: "Rhythm Based game where a user must hit circles generated on the canvas based on BPM."
 })
 
+b.Framework.create({project_id:2, name:"Javascript"})
+b.Framework.create({project_id:2, name:"CreateJS"})
+b.Framework.create({project_id:2, name:"Web Audio"})
+b.Framework.create({project_id:2, name:"Anime.JS"})
+
+
 
 a = Project.create({title: "PGPChat",
 thumbnail: "http://documents.trendmicro.com/images/TEx/articles/free-encryption.jpg",
@@ -31,5 +43,8 @@ demo_one: "https://www.youtube.com/embed/CnFX2EXNCcY",
 github_one: "https://github.com/mattdizon/pgpchat_frontend",
 description: "Using React and Ruby on Rails I created a Web App that uses the open source library OpenPGP to create a P2P message encryption app. As a user sends a message the message is first encrypted before leaving the client and entering the serer. As the message enters the database, the message is encrypted and stored both on the sender and recipients respective mailbox. This message is only decryptable with the persons private key. Because I chose not to store the private key, this means the message for both parties is not penetrable",
 short_description: "Encrypted Messaging React App that utilizes the OpenPGP library and P2P encryption"
-
 })
+
+b.Framework.create({project_id:3, name:"React"})
+b.Framework.create({project_id:3, name:"Ruby on Rails"})
+b.Framework.create({project_id:3, name:"OpenPGP.JS"})
