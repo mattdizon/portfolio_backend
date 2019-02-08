@@ -16,11 +16,11 @@ description: "Foodie is both a web app and a mobile app. Utilizing React and Rai
 short_description: "Web and iOS Recipe Query App with Rails Backend and JWT Auth. "
 })
 
-b.Framework.create({project_id:1, name:"React"})
-b.Framework.create({project_id:1, name:"Redux"})
-b.Framework.create({project_id:1, name:"Ruby on Rails"})
-b.Framework.create({project_id:1, name:"Swift"})
-b.Framework.create({project_id:1, name:"CoreML"})
+b =Framework.create({project_id:1, name:"React"})
+b = Framework.create({project_id:1, name:"Redux"})
+b = Framework.create({project_id:1, name:"Ruby on Rails"})
+b = Framework.create({project_id:1, name:"Swift"})
+b = Framework.create({project_id:1, name:"CoreML"})
 
 a = Project.create({ title: "OSU-JS",
 thumbnail: "https://i.imgur.com/d89eu2y.png",
@@ -30,10 +30,10 @@ description: "Using vanilla javascript and libraries such as AnimeJS and CreateJ
 short_description: "Rhythm Based game where a user must hit circles generated on the canvas based on BPM."
 })
 
-b.Framework.create({project_id:2, name:"Javascript"})
-b.Framework.create({project_id:2, name:"CreateJS"})
-b.Framework.create({project_id:2, name:"Web Audio"})
-b.Framework.create({project_id:2, name:"Anime.JS"})
+b=Framework.create({project_id:2, name:"Javascript"})
+b=Framework.create({project_id:2, name:"CreateJS"})
+b=Framework.create({project_id:2, name:"Web Audio"})
+b=Framework.create({project_id:2, name:"Anime.JS"})
 
 
 
@@ -45,6 +45,6 @@ description: "Using React and Ruby on Rails I created a Web App that uses the op
 short_description: "Encrypted Messaging React App that utilizes the OpenPGP library and P2P encryption"
 })
 
-b.Framework.create({project_id:3, name:"React"})
-b.Framework.create({project_id:3, name:"Ruby on Rails"})
-b.Framework.create({project_id:3, name:"OpenPGP.JS"})
+b=Framework.create({project_id:3, name:"React"})
+b=Framework.create({project_id:3, name:"Ruby on Rails"})
+b=Framework.create({project_id:3, name:"OpenPGP.JS"})
